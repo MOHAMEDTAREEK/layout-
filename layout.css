@@ -1,0 +1,35 @@
+
+#title{
+display: flex;    
+ justify-content: center;
+    font-size: 36px;
+}
+ 
+#sec {
+    border: 2px solid black;
+    margin: 16px;
+}
+#size {
+    padding: 45px;
+   
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    background-color: darkgray
+}
+.dad {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width : 1000px){
+    .dad {
+         display: flex;
+        flex-direction: column;
+        padding: 3px 0px;
+        text-align: center;
+        margin-right: 80px;
+        width: 100%;
+    }
+}
+    
